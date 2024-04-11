@@ -26,3 +26,35 @@ body{
     max-width: 1280px;
     margin: 0 auto;
 }
+
+h2{
+    padding: 16px 30px;
+    margin: 0;
+    background-color: $primary;
+    text-transform: uppercase;
+    transform: translateY(-50%);
+}
+
+// lista prodotti
+.product-list{
+    padding-bottom: 54px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+
+    // prodotto singolo
+    .product{
+        width: calc(100% / 6 - (28px / 6 * 5));
+        text-transform: uppercase;
+        
+        h4{
+            font-weight: normal;
+        }
+
+        img{
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+        }
+    }
+}

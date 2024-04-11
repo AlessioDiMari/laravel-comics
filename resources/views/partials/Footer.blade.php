@@ -4,7 +4,7 @@
         <div class="container">
             <!-- lista dei links info -->
             <div class="link-info">
-                <!-- link info singolo dinamicizzato -->
+
                 <div class="link-info-section">
                     <h4></h4>
                     <ul>
