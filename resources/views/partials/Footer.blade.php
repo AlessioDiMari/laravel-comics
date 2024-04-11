@@ -3,10 +3,10 @@
     <div class="top-foot">
         <div class="container">
             <!-- lista dei links info -->
-            <div class="-info">
+            <div class="link-info">
                 <!-- link info singolo dinamicizzato -->
                 <div class="link-info-section">
-                    <h4>Footer links</h4>
+                    <h4></h4>
                     <ul>
                         <li>primo link</li>
                         <li>secondo link</li>
@@ -17,7 +17,7 @@
                 </div>
             </div>
             <div id="logo-big">
-                <img src="" alt="">
+                <img src="{{Vite::asset('resources/img/dc-logo-bg.png')}}" alt="">
             </div>
         </div>
     </div>
@@ -36,11 +36,11 @@
                 <strong>FOLLOW US</strong>
                 <!-- lista social -->
                 <ul>
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""></li>
-                    <li><img src="" alt=""></li>
+                    <li><img src="../../public/img/footer-facebook.png" alt=""></li>
+                    <li><img src="../../public/img/footer-twitter.png" alt=""></li>
+                    <li><img src="../../public/img/footer-youtube.png" alt=""></li>
+                    <li><img src="../../public/img/footer-pinterest.png" alt=""></li>
+                    <li><img src="../../public/img/footer-periscope.png" alt=""></li>
                 </ul>
             </div>
         </div>

@@ -1,0 +1,53 @@
+nav{
+
+    background-color: white;
+    color: black;
+    
+    .container{
+        justify-content: space-between;
+        align-items: center;
+        align-items: stretch;
+        padding: 0 20px;
+        max-height: 120px;
+    }
+
+    #logo-img{
+        padding: 18px 0;
+
+        img{
+            height: 100%;
+        }
+    }
+
+    // lista link
+    ul{
+        display: flex;
+        gap: 32px;
+        list-style-type: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+
+        // links
+        li{
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            // link cliccato/attivo
+            &.clicked{
+                color: $primary;
+            }
+
+            &.clicked::before{
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 5px;
+                background-color: $primary;
+            }
+        }
+    }
+}

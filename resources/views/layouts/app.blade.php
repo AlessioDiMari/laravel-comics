@@ -11,7 +11,7 @@
 <body>
 
     {{-- includo l navbar dalle partials --}}
-    @include('partials/NavBar')
+    @include('partials/Navbar')
 
     <main>
         

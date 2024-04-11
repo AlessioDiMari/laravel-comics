@@ -1,7 +1,7 @@
 <nav>
     <div class="container">
         <div id="logo-img">
-            <img src="" alt="">
+            <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="">
         </div>
         <!-- lista links -->
         <ul id="nav-links">
