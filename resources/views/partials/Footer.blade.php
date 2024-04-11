@@ -36,11 +36,11 @@
                 <strong>FOLLOW US</strong>
                 <!-- lista social -->
                 <ul>
-                    <li><img src="../../public/img/footer-facebook.png" alt=""></li>
-                    <li><img src="../../public/img/footer-twitter.png" alt=""></li>
-                    <li><img src="../../public/img/footer-youtube.png" alt=""></li>
-                    <li><img src="../../public/img/footer-pinterest.png" alt=""></li>
-                    <li><img src="../../public/img/footer-periscope.png" alt=""></li>
+                    <li><img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt=""></li>
+                    <li><img src="{{Vite::asset('resources/img/footer-twitter.png')}}" alt=""></li>
+                    <li><img src="{{Vite::asset('resources/img/footer-youtube.png')}}" alt=""></li>
+                    <li><img src="{{Vite::asset('resources/img/footer-pinterest.png')}}" alt=""></li>
+                    <li><img src="{{Vite::asset('resources/img/footer-periscope.png')}}" alt=""></li>
                 </ul>
             </div>
         </div>

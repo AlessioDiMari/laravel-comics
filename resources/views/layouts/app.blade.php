@@ -13,6 +13,10 @@
     {{-- includo l navbar dalle partials --}}
     @include('partials/Navbar')
 
+
+    {{-- includo l'hero --}}
+    @include('partials/Hero')
+
     <main>
         
         {{-- Concedo il main dal file home --}}
