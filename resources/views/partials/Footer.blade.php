@@ -3,7 +3,7 @@
     <div class="top-foot">
         <div class="container">
             <!-- lista dei links info -->
-            <div class="link-info">
+            <div class="-info">
                 <!-- link info singolo dinamicizzato -->
                 <div class="link-info-section">
                     <h4>Footer links</h4>

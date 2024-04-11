@@ -10,15 +10,15 @@
 </head>
 <body>
     
+    @include('partials/NavBar')
 
-    <div class="container py-5">
-        <h1>
-            ciao
-        </h1>
-        
-    </div>
-    @yield('content')
+    <main>
+        <div class="container p-5 border border-black">
+            qua dentro ci sarà il contenuto della pagina
+        </div>
+    </main>
 
+    @include('partials/Footer')
 
 
 </body>
