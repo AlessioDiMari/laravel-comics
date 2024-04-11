@@ -10,10 +10,13 @@
 </head>
 <body>
     
-    <h1>
-        ciao
-    </h1>
-    
+
+    <div class="container py-5">
+        <h1>
+            ciao
+        </h1>
+        
+    </div>
     @yield('content')
 
 
