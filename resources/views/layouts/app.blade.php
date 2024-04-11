@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Titolo</title>
+    <title>DC Comix</title>
 
     @vite('resources/js/app.js')
 </head>
 <body>
-    
+
+    {{-- includo l navbar dalle partials --}}
     @include('partials/NavBar')
 
     <main>
-        <div class="container p-5 border border-black">
-            qua dentro ci sarà il contenuto della pagina
-        </div>
+        
+        {{-- Concedo il main dal file home --}}
+        @yield('content')
+
     </main>
 
+    {{-- includo il footer dalle partials --}}
     @include('partials/Footer')
 
 
